@@ -1,1 +1,46 @@
+.div1 {
+    background-color: yellow;
+    width: 46%;
+    height: 30vh;
+    display: inline-block;
+    margin: 2%;
+}
+
+#div2{
+    background-color: palevioletred;
+    width:96%;
+    height: 30vh;
+    margin:2%;
+}
+
+.div3{
+    background-color: blue;
+    width:96%;
+    height: 15vh;
+    margin: 2%;
+
+}
+
+
+@media screen and (max-width:320px) {
+
+    .div1{
+        background-color: yellow;
+        width:96%;
+        height: 15vh;
+        margin:2%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .div3{
+        background-color:blue;
+        display: inline-block;
+        width:29.3%;
+        height: 30vh;
+        margin:2%;
+
+    }
+}
 

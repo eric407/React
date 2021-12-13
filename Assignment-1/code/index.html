@@ -16,6 +16,18 @@
 //React Code here
  ReactDOM.render(<div></div>,document.getElementById('root'));
 
+ const content =
+  React.createElement('div' ,{},
+    React.createElement('div', { class: "div1" }),
+    React.createElement('div', { class: "div1" }),
+    React.createElement('div', { id: "div2" }),
+    React.createElement('div', { class: "div3" }),
+    React.createElement('div', { class: "div3" }),
+    React.createElement('div', { class: "div3" }),
+  );
+
+  ReactDOM.render(content,document.getElementById('root'));
+
 </script>
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
