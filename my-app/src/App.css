@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.employee-pic{
+  width:300px;
+  height: 280px;
+  border-radius: 10px;
+}
+.App-header{
+  width:300px;
+  margin:auto;
+}
+.data , .details{
+  text-align: left;
+}
+
+#name{
+  text-align: left;
+  font-size: 70px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  color: rgb(12, 232, 240);
+}
+
+.details{
+  font-size:18px ;
+  color: gray;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.data{
+  font-size: 30px;
+  margin-top:5px;
+}
